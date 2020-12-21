@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+     
+}
+.top-grid
+{
+  background-color: lightgrey;
+    height: 2.5rem;
+    padding: .5rem 0;
+    
+}
+
+.top-grid a  
+{
+    
+ color: black;
+text-decoration: none;
+    font-size: 1.1rem;
+    
+}
+.Logo img
+{
+  height: 3rem;  
+}
+.navbar
+{
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: white;
+    letter-spacing: .1rem; 
+    box-shadow: 0 1rem  1rem rgba(0,0,0,.9);
+    z-index: 1;
+}
+.nav-item
+{
+padding:.5rem; 
+    
+}
+.nav-link
+{
+    color:#5b5555!important;
+}
+.nav-link.active,
+.nav-link:hover
+{
+    color:#5b5555!important;
+}
+#carousel
+{
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.9);
+    
+}
+.carousel.inner
+{
+max-height: 35rem!important;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.bg-custom{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    border-radius: 1rem;
+}
+.carousel-caption h1
+{
+    font-size: 2.8rem;
+    text-shadow:.1rem .1rem .3rem rgba(0,0,0,.1); 
+}
+.border-primary{
+    border-top: .1rem solid white!important;
+}
+.carousel-caption h1
+{
+    font-size: 2.8rem;
+    text-shadow:.1rem .1rem .3rem rgba(0,0,0,.1); 
+}
+.btn-lg
+{
+    border-radius: 0;
+    border-width: medium;   
+}
+.btn secondary{
+    background-color: darkgrey;
+    border: 0.5rem solid;
+}
+.btn-secondary:hover,
+.btn-secondary:focus
+{
+    
+  background-color: darkgrey!important;
+    border: 0.5rem solid !important; 
+}
+
+
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
